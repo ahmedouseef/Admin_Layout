@@ -7,10 +7,10 @@
    // Sidebar toggle
 
    jQuery('.menu-list > a').click(function() {
-      
+
       var parent = jQuery(this).parent();
       var sub = parent.find('> ul');
-      
+
       if(!jQuery('body').hasClass('sidebar-collapsed')) {
          if(sub.is(':visible')) {
             sub.slideUp(300, function(){
@@ -57,7 +57,7 @@
       jQuery(this).removeClass('nav-hover');
    });
 
-   
+
 
 
    // Toggle Menu

@@ -27,9 +27,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+
             ],
-            "scripts": []
+            "scripts": [
+
+              "src/assets/js/jquery-3.2.1.min.js",
+            ]
           },
           "configurations": {
             "production": {
